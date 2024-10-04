@@ -15,3 +15,7 @@ Depends:
 LazyData: true
 URL: https://github.com/celestedallago/paqueteprueba
 BugReports: https://github.com/celestedallago/paqueteprueba/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,26 @@
+---
+title: "Como usar el paquete prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteprueba)
+```
+
+Esta es una viñeta de prueba. Podemos mostrar como usar la funcion `suma()`
+
+```{r}
+suma(2, 8)
+```
+
