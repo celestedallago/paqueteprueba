@@ -13,7 +13,7 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 LazyData: true
-URL: https://github.com/celestedallago/paqueteprueba
+URL: https://github.com/celestedallago/paqueteprueba, https://celestedallago.github.io/paqueteprueba/
 BugReports: https://github.com/celestedallago/paqueteprueba/issues
 Suggests: 
     knitr,
