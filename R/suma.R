@@ -1,5 +1,22 @@
-#suma dos numeros
-
+#' Suma dos numeros
+#'
+#' La funcion `suma()` toma 2 numeros positivos y los suma.
+#'
+#' Estos son detalles extras de la funcion.
+#'
+#'
+#' @param x un vector numerico
+#' @param y un vector numerico
+#'
+#' @return
+#' Un vector numerico con ls dums de `x` e `y`
+#'
+#' @examples
+#' suma(2, 2)
+#' suma(1, 10)
+#'
+#'
+#' @export
 suma <- function(x, y){
   return(x + y)
 }
@@ -28,6 +45,7 @@ suma4 <- function(x, y){
   }
   return(x + y)
 }
+
 
 
 
